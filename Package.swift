@@ -6,8 +6,7 @@ import PackageDescription
 let package = Package(
     name: "SideMenu",
     products: [
-        .library(name: "SideMenu",  targets: ["SideMenu"]),
-        type: .dynamic
+        .library(name: "SideMenu",  type: .dynamic, targets: ["SideMenu"])
     ],
     dependencies: [],
     targets: [
